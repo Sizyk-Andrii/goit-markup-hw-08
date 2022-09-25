@@ -1,0 +1,38 @@
+
+  
+  .location {
+    color: var(--bg-color1);
+    transition: color 250ms var(--primary-timing-function);
+
+    &:hover, &:focus {
+  color: var(--accent-color);
+  transition: color 250ms var(--primary-timing-function);
+    }
+  }
+  
+  .footer__menu-contacts {
+    color: var(--menu-contacts-footer-color);
+    transition: color 250ms var(--primary-timing-function);
+
+    &:hover, &:focus, {
+      color: var(--accent-color);
+      transition: color 250ms var(--primary-timing-function);
+    }
+  }
+  
+  
+  .footer__gap {
+    margin-bottom: 9px;
+  }
+  
+  .footer-page-bg {
+    background-color: var(--secondary-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer-box {
+    display: flex;
+    align-items: baseline;
+  }
+  

@@ -1,0 +1,29 @@
+.button-text {
+  font-weight: var(--secondary-font-weight);
+  line-height: 1.63;
+  text-align: var(--primary-text-align);
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--main-text-color);
+  background: var(--third-bg-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+  transition: color 250ms var(--primary-timing-function),
+    background-color 250ms var(--primary-timing-function),
+    box-shadow 250ms var(--primary-timing-function);
+    
+    &:hover, &:focus {
+  color: var(--bg-color1);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px var(--button-text-shadow-primary-color),
+    0px 1px 2px var(--button-text-shadow-secondary-color),
+    0px 2px 2px var(--button-text-shadow-third-color);
+  transition: color 250ms var(--primary-timing-function);
+}
+}
+  
+  .button {
+    font-size: var(--secondary-font-size);
+    cursor: pointer;
+    border: none;
+  }
+  

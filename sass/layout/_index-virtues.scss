@@ -1,0 +1,46 @@
+.topic {
+    font-weight: var(--primary-font-weight);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: var(--primary-text-align);
+  }
+  
+  .virtues-icon-box {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--third-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  .our-virtues__title {
+    font-weight: var(--primary-font-weight);
+    line-height: var(--primary-line-height);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: var(--primary-font-size);
+  }
+  
+  .our-virtues__desc {
+    line-height: 1.71;
+    color: var(--paragraf-text-color);
+  }
+  
+  .our-virtues-conteiner {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+  
+  .virtues__icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .our-virtues-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  

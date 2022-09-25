@@ -1,0 +1,32 @@
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/current';
+
+
+@import './layout/header-page';
+@import './layout/index-main';
+@import './layout/index-virtues';
+@import './layout/index-examples';
+@import './layout/index-our-team';
+@import './layout/footer';
+@import './layout/clients';
+@import './layout/portfolio-project';
+@import './layout/modal-form';
+
+
+@import './components/_navigation';
+@import './components/social-network';
+@import './components/mailing-form';
+@import './components/button';
+@import './components/logo';
+@import './components/modal-windows';
+@import './components/title';
+@import './components/list-item';
+@import './components/backdrop';
+
+
+@import './base/common.scss';
+@import './base/section';
+@import './base/conteiner';
+

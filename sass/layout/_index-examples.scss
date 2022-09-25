@@ -1,0 +1,33 @@
+.examples-frame {
+    padding-top: 0;
+  }
+
+  .examples_work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+.label-box {
+    position: relative;
+  }
+  
+  .label {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: var(--primary-font-weight);
+    line-height: var(--primary-line-height);
+    text-align: var(--primary-text-align);
+    letter-spacing: var(--primary-letter-spacing);
+    text-transform: uppercase;
+    color: var(--bg-color1);
+  }
