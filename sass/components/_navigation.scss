@@ -1,14 +1,51 @@
 
-.navigation-page,
+
+
 .navigation-container {
-  display: flex;
-  align-items: center;
+  display: none;
+}
+
+.navigation__list-contacts {
+  display: none;
 }
 
 .navigation__menu-gap {
-  column-gap: 50px;
-  margin-left: auto;
+    display: none;
 }
+  
+
+
+// ---------
+
+.open-mobile-menu-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.open-mobile-menu-btn_icon {
+  width: 40px;
+  height: 40px;
+}
+
+// ---------
+
+
+//
+// .navigation-container {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .navigation-page {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .navigation__menu-gap {
+//   column-gap: 50px;
+//   margin-left: auto;
+// }
 
 .navigation__menu-contacts {
   font-weight: var(--secondary-font-weight);
