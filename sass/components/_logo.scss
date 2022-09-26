@@ -1,3 +1,23 @@
+.navigation__logo {
+  padding: 16px 0;
+  text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: var(--primary-font-weight);
+    font-size: var(--third-font-size);
+    line-height: var(--secondary-line-height);
+    letter-spacing: var(--primary-letter-spacing);
+    color: var(--logo-navigation-text-color);
+}
+
+
+// .navigation__logo {
+    
+//     margin-right: 93px;
+//     padding-top: 24px;
+//     padding-bottom: 25px;
+//   }
+  
+
 .footer__logo {
     text-decoration: none;
     font-family: var(--secondary-font);
@@ -8,16 +28,4 @@
     color: var(--bg-color1);
   }
 
-  .navigation__logo {
-    text-decoration: none;
-    font-family: var(--secondary-font);
-    font-weight: var(--primary-font-weight);
-    font-size: var(--third-font-size);
-    line-height: var(--secondary-line-height);
-    letter-spacing: var(--primary-letter-spacing);
-    color: var(--logo-navigation-text-color);
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-  }
   
