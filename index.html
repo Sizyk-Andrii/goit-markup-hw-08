@@ -37,7 +37,7 @@
             </li>
           </ul>
         </nav>
-        <button type="button" title="menu-button" class="open-mobile-menu-btn">
+        <button type="button"  class="open-mobile-menu-btn" data-menu-open>
           <svg class="open-mobile-menu-btn_icon">
             <use href="./images/icons.svg#icon-burger-btn"></use>
           </svg>
@@ -74,9 +74,9 @@
           </li>
         </ul>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile__menu-container">
-          <button class="mobile__btn_window-close" type="button" data-modal-close>
+          <button class="mobile__btn_window-close" type="button" data-menu-close>
             <svg width="19" height="19">
               <use href="./images/icons.svg#icon-close-sign"></use>
             </svg>
@@ -91,7 +91,7 @@
             <li class="list-item mobile-menu__mail"><a class="mobile-menu__list-item-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           </ul>
           <ul class="mobile-menu__list mobile-menu__social-group">
-            <li class="list-item"><a class="mobile-menu__list-item-social" href="#">Instagram</a></li>
+            <li class="list-item"><a class="mobile-menu__list-item-social-non-border" href="#">Instagram</a></li>
             <li class="list-item"><a class="mobile-menu__list-item-social" href="#">Twitter</a></li>
             <li class="list-item"><a class="mobile-menu__list-item-social" href="#">Facebook</a></li>
             <li class="list-item"><a class="mobile-menu__list-item-social" href="#">LinkedIn</a></li>
@@ -701,6 +701,7 @@
         </form>
       </div>
     </div> -->
+    <script src="./js/mobile-menu.js"></script>
     <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
