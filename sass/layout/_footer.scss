@@ -10,6 +10,7 @@
       line-height: var(--primary-line-height);
       text-transform: uppercase;
       color: var(--bg-color1);
+      text-align: center;
     }
     
     .footer__block_invite {
@@ -34,14 +35,14 @@
        flex-wrap: wrap;
        justify-content: space-around;
       }
-
+ 
       // .footer-form-conteiner {
       //   display: block;
       //   margin-top: 60px;
       // }
 
       // .footer-invite {
-        
+        // text-align: center;
       // }
       
   }
