@@ -262,19 +262,34 @@
   color: var(--bg-color1);
 }
 
-@media screen and (min-width: 768px) {
+.footer__block_invite {
+  display: block;
+  align-content: center;
+  padding-bottom: 60px;
+}
+
+.footer-conteiner {
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 767px) {
   .footer-box {
     display: flex;
     align-items: baseline;
-  }
-  .footer-form-conteiner {
-    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer-box {
     display: flex;
     align-items: baseline;
+  }
+  .footer__block_invite {
+    display: block;
+    align-content: center;
+    margin-right: auto;
   }
 }
 .location {
@@ -301,6 +316,11 @@
   line-height: var(--primary-line-height);
   text-transform: uppercase;
   color: var(--bg-color1);
+  text-align: left;
+}
+.footer__menu-contacts .footer-conteiner {
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .footer__gap {
@@ -311,12 +331,6 @@
   background-color: var(--secondary-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer__block_invite {
-  display: block;
-  align-content: center;
-  margin-right: auto;
 }
 
 .footer-invite {
@@ -729,6 +743,14 @@
   transition: color 250ms var(--primary-timing-function);
 }
 
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+
 .footer-form-field__inpt {
   width: 358px;
   height: 50px;
@@ -941,6 +963,16 @@
     padding-top: 26px;
     padding-bottom: 26px;
   }
+  .footer__logo {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: var(--primary-font-weight);
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: var(--primary-letter-spacing);
+    color: var(--bg-color1);
+  }
 }
 @media screen and (min-width: 1200px) {
   .navigation__logo {
@@ -954,6 +986,15 @@
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
+  }
+  .footer__logo {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: var(--primary-font-weight);
+    font-size: var(--third-font-size);
+    line-height: var(--secondary-line-height);
+    letter-spacing: var(--primary-letter-spacing);
+    color: var(--bg-color1);
   }
 }
 .footer__logo {
