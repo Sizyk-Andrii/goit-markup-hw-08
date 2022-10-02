@@ -71,32 +71,11 @@
   }
 }
 
-// --------- new
-
-//
-
-// ---------
-
 @media screen and (min-width: 768px) {
 }
 
 @media screen and (min-width: 1200px) {
 }
-
-// .navigation-container {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .navigation-page {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .navigation__menu-gap {
-//   column-gap: 50px;
-//   margin-left: auto;
-// }
 
 .navigation__menu-contacts {
   font-weight: var(--secondary-font-weight);
@@ -114,10 +93,6 @@
     transition: color 250ms var(--primary-timing-function);
   }
 }
-
-// .navigation__menu-contacts-icon {
-//   margin-right: 10px;
-// }
 
 .navigation__list-contacts,
 .navigation__menu-item {

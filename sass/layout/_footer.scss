@@ -27,11 +27,9 @@
 .footer__block_invite {
   display: block;
   align-content: center;
-  // padding-bottom: 60px;
 }
 
 .footer-conteiner {
-  // margin-bottom: 60px;
   margin: 0 auto;
   text-align: center;
   @media screen and(min-width:1200px) {
@@ -55,19 +53,8 @@
 
     @media screen and (min-width: 1200px) {
       justify-content: space-between;
-      // margin-bottom: 0;
     }
   }
-
-  // .footer-form-conteiner {
-  //   width: 100%;
-  //   display: block;
-  //   margin-top: 60px;
-  // }
-
-  // .footer-invite {
-  // text-align: center;
-  // }
 }
 
 @media screen and (min-width: 1200px) {
@@ -129,17 +116,6 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-// .footer-box {
-//   display: flex;
-//   align-items: baseline;
-// }
-
-// .footer__block_invite {
-//   display: block;
-//   align-content: center;
-//   margin-right: auto;
-// }
 
 .footer-invite {
   font-style: normal;
