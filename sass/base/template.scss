@@ -3,7 +3,7 @@
 screen and (min-resolution: 96dpi) and (max-width: 767px),
 screen and (min-resolution: 1dppx) and (max-width: 767px) {
   .box {
-    background-image: url('photo@1x.png');
+    background-image: url('../../images/mob/hero-bg-Img_mob@1x.jpg');
   }
 }
 
@@ -11,7 +11,7 @@ screen and (min-resolution: 1dppx) and (max-width: 767px) {
 screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .box {
-    background-image: url('photo@2x.png');
+    background-image: url('pho');
   }
 }
 
