@@ -1,44 +1,59 @@
-   .our-team-list {
-    display: flex;
+.our-team-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+  gap: 30px;
+
+  @media screen and(min-width: 768px) {
     flex-direction: row;
-    justify-content: space-between;
   }
+}
 
-  .our-team-section {
-    background-color: var(--third-bg-color);
+.our-team-item {
+  @media screen and(min-width: 768px) {
+    width: 354px;
   }
+  @media screen and(min-width: 1200px) {
+    width: 270px;
+  }
+}
 
-  .specialists_name {
-    font-weight: var(--secondary-font-weight);
-    font-size: var(--secondary-font-size);
-    line-height: var(--secondary-line-height);
-    margin-bottom: 10px;
-  }
-  
-  .specialists_profession {
-    font-size: var(--secondary-font-size);
-    line-height: var(--secondary-line-height);
-    color: var(--paragraf-text-color);
-    margin-bottom: 16px;
-  }
+.our-team-section {
+  background-color: var(--third-bg-color);
+}
 
-  .frame-specialists_name {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: var(--primary-text-align);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px var(--button-text-shadow-third-color),
-      0px 1px 1px var(--shadow-primary-color),
-      0px 2px 1px var(--shadow-secondary-color);
-  }
-  
-  .frame {
-    background: var(--bg-color1);
-    border-right: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
-    border-left: 1px solid var(--border-color);
-  }
-  
-  .no-gap {
-    display: block;
-  }
+.specialists_name {
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+  line-height: var(--secondary-line-height);
+  margin-bottom: 10px;
+}
+
+.specialists_profession {
+  font-size: var(--secondary-font-size);
+  line-height: var(--secondary-line-height);
+  color: var(--paragraf-text-color);
+  margin-bottom: 16px;
+}
+
+.frame-specialists_name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: var(--primary-text-align);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px var(--button-text-shadow-third-color),
+    0px 1px 1px var(--shadow-primary-color),
+    0px 2px 1px var(--shadow-secondary-color);
+}
+
+.frame {
+  background: var(--bg-color1);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+}
+
+.no-gap {
+  display: block;
+}

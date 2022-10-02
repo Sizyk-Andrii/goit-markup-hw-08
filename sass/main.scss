@@ -1,8 +1,6 @@
-
 @import './utils/variables';
 @import './utils/visually-hidden';
 @import './utils/current';
-
 
 @import './layout/header-page';
 @import './layout/index-main';
@@ -13,7 +11,6 @@
 @import './layout/clients';
 @import './layout/portfolio-project';
 @import './layout/modal-form';
-
 
 @import './components/_navigation';
 @import './components/social-network';
@@ -26,8 +23,6 @@
 @import './components/backdrop';
 @import './components/mobile-menu';
 
-
 @import './base/common.scss';
 @import './base/section';
 @import './base/conteiner';
-

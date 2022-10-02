@@ -1,122 +1,109 @@
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  flex-wrap: wrap;
+  align-items: baseline;
 
-    .footer-box {
-      display: block;
-    }
-    
-    .footer-invite {
-      font-style: normal;
-      font-weight: var(--primary-font-weight);
-      font-size: var(--primary-font-size);
-      line-height: var(--primary-line-height);
-      text-transform: uppercase;
-      color: var(--bg-color1);
-      text-align: center;
-    }
-    
-    .footer__block_invite {
-      display: block;
-      align-content: center;
-      padding-bottom: 60px;
-    }
-
-    .footer-conteiner{
-      padding-bottom: 60px;
-      margin: 0 auto;
-    }
-   
-  @media screen and (min-width:480px) {
-   
+  @media screen and(min-width: 768px) {
+    flex-direction: row;
   }
-  
-  @media screen and (min-width:767px) {
-    .footer-box {
-      display: flex;
-       align-items: baseline;
-       flex-wrap: wrap;
-       justify-content: space-around;
-      }
- 
-      // .footer-form-conteiner {
-      //   display: block;
-      //   margin-top: 60px;
-      // }
+}
 
-      // .footer-invite {
-        // text-align: center;
-      // }
-      
+.footer-invite {
+  font-style: normal;
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  text-transform: uppercase;
+  color: var(--bg-color1);
+  text-align: center;
+
+  @media screen and(min-width: 1200px) {
+    text-align: left;
   }
-  
-  @media screen and (min-width:1200px) {
-    .footer-box {
-      display: flex;
-       align-items: baseline;
-      }
+}
 
-      .footer__block_invite {
-        display: block;
-        align-content: center;
-        margin-right: auto;
-      }
+.footer__block_invite {
+  display: block;
+  align-content: center;
+  // padding-bottom: 60px;
+}
+
+.footer-conteiner {
+  // margin-bottom: 60px;
+  margin: 0 auto;
+  text-align: center;
+  @media screen and(min-width:1200px) {
+    text-align: left;
   }
-  
-  .location {
-    color: var(--bg-color1);
-    transition: color 250ms var(--primary-timing-function);
+}
 
-    &:hover, &:focus {
-  color: var(--accent-color);
-  transition: color 250ms var(--primary-timing-function);
+.footer-form-conteiner {
+  width: 100%;
+  @media screen and (min-width: 1200px) {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .footer-box {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @media screen and (min-width: 1200px) {
+      justify-content: space-between;
+      // margin-bottom: 0;
     }
   }
-  
-  .footer__menu-contacts {
-    color: var(--menu-contacts-footer-color);
-    transition: color 250ms var(--primary-timing-function);
 
-    &:hover, &:focus, {
-      color: var(--accent-color);
-      transition: color 250ms var(--primary-timing-function);
-    }
-
-    .footer-invite {
-      font-style: normal;
-      font-weight: var(--primary-font-weight);
-      font-size: var(--primary-font-size);
-      line-height: var(--primary-line-height);
-      text-transform: uppercase;
-      color: var(--bg-color1);
-      text-align: left;
-    }
-    
-    .footer-conteiner{
-      padding-bottom: 0;
-      margin: 0;
-    }
-  }
-    
-  
-  .footer__gap {
-    margin-bottom: 9px;
-  }
-  
-  .footer-page-bg {
-    background-color: var(--secondary-bg-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  // .footer-box {
-  //   display: flex;
-  //   align-items: baseline;
-  // }
-  
-  // .footer__block_invite {
+  // .footer-form-conteiner {
+  //   width: 100%;
   //   display: block;
-  //   align-content: center;
-  //   margin-right: auto;
+  //   margin-top: 60px;
   // }
-  
+
+  // .footer-invite {
+  // text-align: center;
+  // }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-box {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer__block_invite {
+    display: block;
+    align-content: center;
+    margin-right: auto;
+  }
+}
+
+.location {
+  color: var(--bg-color1);
+  transition: color 250ms var(--primary-timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: color 250ms var(--primary-timing-function);
+  }
+}
+
+.footer__menu-contacts {
+  color: var(--menu-contacts-footer-color);
+  transition: color 250ms var(--primary-timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: color 250ms var(--primary-timing-function);
+  }
+
   .footer-invite {
     font-style: normal;
     font-weight: var(--primary-font-weight);
@@ -124,26 +111,64 @@
     line-height: var(--primary-line-height);
     text-transform: uppercase;
     color: var(--bg-color1);
+    text-align: left;
   }
-  
-  .footer__social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--social-link_footer-background-color);
-    transition: background-color 250ms var(--primary-timing-function),
-      fill 250ms var(--primary-timing-function);
 
-      &:hover, &:focus {
+  .footer-conteiner {
+    padding-bottom: 0;
+    margin: 0;
+  }
+}
+
+.footer__gap {
+  margin-bottom: 9px;
+}
+
+.footer-page-bg {
+  background-color: var(--secondary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+// .footer-box {
+//   display: flex;
+//   align-items: baseline;
+// }
+
+// .footer__block_invite {
+//   display: block;
+//   align-content: center;
+//   margin-right: auto;
+// }
+
+.footer-invite {
+  font-style: normal;
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  text-transform: uppercase;
+  color: var(--bg-color1);
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--social-link_footer-background-color);
+  transition: background-color 250ms var(--primary-timing-function),
+    fill 250ms var(--primary-timing-function);
+
+  &:hover,
+  &:focus {
     background-color: var(--accent-color);
     fill: var(--bg-color1);
     transition: color 250ms var(--primary-timing-function);
   }
-  }
-  
-  .footer__social-icon {
-    fill: var(--bg-color1);
-  }
+}
+
+.footer__social-icon {
+  fill: var(--bg-color1);
+}
